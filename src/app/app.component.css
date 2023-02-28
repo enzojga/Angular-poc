@@ -1,0 +1,15 @@
+div {
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1F52AB;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
