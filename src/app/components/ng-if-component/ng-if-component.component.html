@@ -1,0 +1,5 @@
+<p *ngIf="booleano, else falseBooleano">A condicional que ngIf recebe é verdadeira</p>
+<ng-template #falseBooleano>
+    <p>A condicional que ngIf recebe é falsa </p>
+</ng-template>
+<button (click)="changeBoolean()">Alterar booleano</button>
